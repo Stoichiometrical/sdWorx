@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from sentiment_analysis import analyze_sentiment
 from data_handling import store_tasks_data, get_tasks_data, analyze_and_store_sentiment_analysis, get_sentiment_analysis_data
+from chatbot import chat_with_gpt4
 
 app = Flask(__name__)
 
@@ -32,6 +33,16 @@ def analyze_sentiment_route():
 
     # Return sentiment score without storing it in sentiment_data
     return jsonify({"sentiment_score": sentiment_score})
+
+@app.route('/chatbot', methods=['POST'])
+def chatbot_endpoint():
+    data = request.get_json()
+    if 'prompt' in data:
+        prompt = data['prompt']
+        response = chat_with_gpt4(prompt)
+        return jsonify({'response': response})
+    else:
+        return jsonify({'error': 'Missing prompt'})
 
 if __name__ == "__main__":
     app.run(debug=True)
