@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import './Manager View/emp.scss';
+import './emp.scss';
+import Tasks from '../../components/manager-comps/Tasks';
+import AIActionItemsComponent from '../../components/manager-comps/ActionItems';
 
-import TaskBox from "./Employee View/Taskbox";
-
-const EmployeeView = () => {
+const EmpView = () => {
     const [activeMenuItem, setActiveMenuItem] = useState('dashboard');
     const [isSideMenuExtended, setIsSideMenuExtended] = useState(true);
 
@@ -41,7 +41,7 @@ const EmployeeView = () => {
                             className={`menu-item ${activeMenuItem === 'profile' ? 'active' : ''}`}
                             onClick={() => handleMenuItemClick('profile')}
                         >
-                            Career Upskilling
+                            Profile
                         </li>
                         <li
                             className={`menu-item ${activeMenuItem === 'settings' ? 'active' : ''}`}
@@ -49,20 +49,19 @@ const EmployeeView = () => {
                         >
                             Settings
                         </li>
+                        {/* Add more menu items as needed */}
+                            </ul>
+                            </div>
 
-                    </ul>
-                </div>
+                            <div className="content">
+                            <div className="forms-row">
+                            <Tasks />
+                            <AIActionItemsComponent />
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            );
+                        };
 
-                <div className="content">
-                    <div className="forms-row">
-                        <TaskBox />
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    );
-};
-
-export default EmployeeView;
+export default EmpView;

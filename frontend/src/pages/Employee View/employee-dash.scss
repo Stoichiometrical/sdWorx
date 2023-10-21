@@ -1,0 +1,21 @@
+.task-box {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #870B58; /* Your brand's primary color */
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+
+  &:hover {
+    background-color: #870B58;
+    color: white;
+    transform: scale(1.05);
+  }
+
+  .task-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+}

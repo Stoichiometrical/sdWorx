@@ -13,7 +13,7 @@ import ManagerView from "./pages/ManagerView";
 import CareerGrowth from "./pages/career-growth/CareerGrowth";
 import TechDashboard from "./components/techdash/TechDashboard";
 import MarketingDashboard from "./components/marketingdash/MarketingDashboard";
-import EmpView from "./pages/Employee View/EmpView";
+import EmpView from "./pages/Manager View/EmpView";
 
 
 const router = createBrowserRouter([
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
         element:""
     },
     {
-        path:"edashboard",
+        path:"edash",
         element:<EmployeeView/>
     },
     {
