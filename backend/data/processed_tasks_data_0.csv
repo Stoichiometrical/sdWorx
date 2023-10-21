@@ -1,0 +1,51 @@
+Task name,Assignee name,Assignee team,Average time taken,Comments,Sentiment
+Task 1,Employee 1,Team A,2 hours,Completed on time,0.0
+Task 2,Employee 2,Team B,1.5 hours,Task completed successfully,0.75
+Task 3,Employee 3,Team A,3 hours,waiting for input,0.0
+Task 4,Employee 4,Team C,4.5 hours,Task delayed due to unforeseen issues,-0.125
+Task 5,Employee 5,Team B,2.5 hours,Completed with minor issues,-0.05
+Task 6,Employee 6,Team A,1.8 hours,Completed ahead of schedule,0.0
+Task 7,Employee 7,Team C,5 hours,Task rescheduled for tomorrow,0.0
+Task 8,Employee 8,Team B,2.2 hours,Completed with no issues,0.0
+Task 9,Employee 9,Team A,3.2 hours,Additional tasks added mid-day,0.0
+Task 10,Employee 10,Team C,4 hours,Task postponed to next week,0.0
+Task 11,Employee 11,Team B,2.7 hours,Task completed with major issues,0.0625
+Task 12,Employee 12,Team A,2.8 hours,Task delayed due to internet outage,-0.125
+Task 13,Employee 13,Team C,3.5 hours,Task completed but quality issues,0.0
+Task 14,Employee 14,Team B,1.9 hours,Task postponed due to urgent priority,-0.125
+Task 15,Employee 15,Team A,4 hours,Task canceled by client,0.0
+Task 16,Employee 1,Team A,2.5 hours,Task completed with difficulty,0.0
+Task 17,Employee 2,Team B,1.2 hours,Requirements not provided,0.0
+Task 18,Employee 3,Team A,4 hours,awaiting materials,0.0
+Task 19,Employee 4,Team C,5.2 hours,Task delayed due to resource constraints,-0.125
+Task 20,Employee 5,Team B,3.7 hours,Task canceled by management,0.0
+Task 21,Employee 6,Team A,2.9 hours,Task not started urgent task took priority,0.0
+Task 22,Employee 7,Team C,4.8 hours,Task in progress awaiting client feedback,0.0
+Task 23,Employee 8,Team B,3.5 hours,Task postponed to address technical issues,0.0
+Task 24,Employee 9,Team A,3.6 hours,Task completed minor revisions needed,-0.05
+Task 25,Employee 10,Team C,4.5 hours,Task not complete awaiting client input,-0.05
+Task 26,Employee 11,Team B,2.6 hours,Task postponed due to illness,-0.125
+Task 27,Employee 12,Team A,4.1 hours,Task delayed due to technical difficulties,-0.0625
+Task 28,Employee 13,Team C,3.2 hours,Task canceled due to project redirection,-0.125
+Task 29,Employee 14,Team B,2.1 hours,Task completed with enhancements,0.0
+Task 30,Employee 15,Team A,3.8 hours,Task postponed for further analysis,0.0
+Task 31,Employee 1,Team A,2.4 hours,Task completed waiting for approval,0.0
+Task 32,Employee 2,Team B,2.2 hours,Task not completed awaiting external data,0.0
+Task 33,Employee 3,Team A,3.9 hours,Task postponed due to scope change,-0.125
+Task 34,Employee 4,Team C,4.7 hours,Task canceled due to budget constraints,-0.125
+Task 35,Employee 5,Team B,2.8 hours,Task delayed due to supplier issues,-0.125
+Task 36,Employee 6,Team A,3.5 hours,Task in progress awaiting stakeholder feedback,0.0
+Task 37,Employee 7,Team C,4.6 hours,Task completed with customer satisfaction,0.0
+Task 38,Employee 8,Team B,3.2 hours,Task postponed due to urgent support request,-0.125
+Task 39,Employee 9,Team A,3.1 hours,Task not completed complex issue encountered,-0.3
+Task 40,Employee 10,Team C,4.9 hours,Task in progress awaiting regulatory approval,0.0
+Task 41,Employee 11,Team B,2.9 hours,Task postponed due to equipment failure,-0.22083333333333335
+Task 42,Employee 12,Team A,3.7 hours,Task completed waiting for user testing,0.0
+Task 43,Employee 13,Team C,3.4 hours,Task canceled due to market changes,-0.125
+Task 44,Employee 14,Team B,2.5 hours,Task not started critical system outage,0.0
+Task 45,Employee 15,Team A,4.4 hours,Task completed pending review,0.0
+Task 46,Employee 1,Team A,2.6 hours,Task delayed due to conflicting priorities,-0.125
+Task 47,Employee 2,Team B,3.1 hours,Task completed with efficiency improvements,0.0
+Task 48,Employee 3,Team A,3.3 hours,Task postponed to address compliance concerns,0.0
+Task 49,Employee 4,Team C,4.2 hours,Task not completed awaiting legal approval,0.2
+Task 50,Employee 5,Team B,3.6 hours,Task delayed due to market research,-0.125
