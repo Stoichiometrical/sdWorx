@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #4a154b;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar h1 {
+  color: white;
+}
+
+.sidebar button {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: #5e1865;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5e1865;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.task {
+  background-color: #5e1865;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.ai-chat {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.ai-chat h3 {
+  background-color: #5e1865;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}

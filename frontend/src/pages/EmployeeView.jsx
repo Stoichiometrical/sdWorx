@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Manager View/emp.scss';
 
 import TaskBox from "./Employee View/Taskbox";
+import EmployeeForms from "./Employee View/Employeee-Forms";
 
 const EmployeeView = () => {
     const [activeMenuItem, setActiveMenuItem] = useState('dashboard');
@@ -56,6 +57,7 @@ const EmployeeView = () => {
                 <div className="content">
                     <div className="forms-row">
                         <TaskBox />
+                        <EmployeeForms/>
 
 
                     </div>
