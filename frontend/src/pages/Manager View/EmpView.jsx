@@ -50,9 +50,9 @@ const EmpView = () => {
                             className={`menu-item ${activeMenuItem === 'settings' ? 'active' : ''}`}
                             onClick={() => handleMenuItemClick('settings')}
                         >
-                            Settings
+
                         </li>
-                        {/* Add more menu items as needed */}
+
                             </ul>
                             </div>
 
