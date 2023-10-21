@@ -12,6 +12,8 @@ import EmployeeView from "./pages/EmployeeView";
 import ManagerView from "./pages/ManagerView";
 import CareerGrowth from "./pages/career-growth/CareerGrowth";
 import TechDashboard from "./components/techdash/TechDashboard";
+import MarketingDashboard from "./components/marketingdash/MarketingDashboard";
+import EmpView from "./pages/Employee View/EmpView";
 
 
 const router = createBrowserRouter([
@@ -35,6 +37,14 @@ const router = createBrowserRouter([
     {
         path:"/tech",
         element:<TechDashboard/>
+    },
+    {
+        path:"mdash",
+        element:<MarketingDashboard/>
+    },
+    {
+        path:"dash",
+        element : <EmpView/>
     }
 
 

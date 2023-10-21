@@ -1,0 +1,52 @@
+.marketing-dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #870B58;
+  margin-bottom: 20px;
+}
+
+.competencies-section,
+.resources-section {
+  margin-bottom: 20px;
+  text-align: left;
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #F8AD07;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #333;
+  }
+}
+
+.course-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.assessment-button {
+  background-color: #E4003A;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+
+  &:hover {
+    background-color: darken(#E4003A, 10%);
+  }
+}
