@@ -3,13 +3,16 @@ import './Manager View/emp.scss';
 
 import TaskBox from "./Employee View/Taskbox";
 import EmployeeForms from "./Employee View/Employeee-Forms";
+import {useNavigate} from "react-router-dom";
 
 const EmployeeView = () => {
     const [activeMenuItem, setActiveMenuItem] = useState('dashboard');
     const [isSideMenuExtended, setIsSideMenuExtended] = useState(true);
+    const career = useNavigate()
 
     const handleMenuItemClick = (item) => {
         setActiveMenuItem(item);
+        career(item)
     };
 
     const toggleSideMenu = () => {
@@ -46,7 +49,7 @@ const EmployeeView = () => {
                         </li>
                         <li
                             className={`menu-item ${activeMenuItem === 'settings' ? 'active' : ''}`}
-                            onClick={() => handleMenuItemClick('settings')}
+                            onClick={() => handleMenuItemClick('careergrowth')}
                         >
                             Settings
                         </li>
@@ -57,7 +60,7 @@ const EmployeeView = () => {
                 <div className="content">
                     <div className="forms-row">
                         <TaskBox />
-                        <EmployeeForms/>
+                        {/*<EmployeeForms/>*/}
 
 
                     </div>

@@ -23,6 +23,10 @@ const router = createBrowserRouter([
 
     },
     {
+        path : "",
+        element:<EmpView/>
+    },
+    {
         path:"/tasks",
         element:""
     },

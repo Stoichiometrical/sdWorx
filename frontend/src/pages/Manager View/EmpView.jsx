@@ -2,13 +2,16 @@ import React, { useState } from 'react';
 import './emp.scss';
 import Tasks from '../../components/manager-comps/Tasks';
 import AIActionItemsComponent from '../../components/manager-comps/ActionItems';
+import {useNavigate} from "react-router-dom";
 
 const EmpView = () => {
     const [activeMenuItem, setActiveMenuItem] = useState('dashboard');
     const [isSideMenuExtended, setIsSideMenuExtended] = useState(true);
+    const career = useNavigate()
 
     const handleMenuItemClick = (item) => {
         setActiveMenuItem(item);
+        career(item)
     };
 
     const toggleSideMenu = () => {
@@ -39,9 +42,9 @@ const EmpView = () => {
                         </li>
                         <li
                             className={`menu-item ${activeMenuItem === 'profile' ? 'active' : ''}`}
-                            onClick={() => handleMenuItemClick('profile')}
+                            onClick={() => handleMenuItemClick('careergrowth')}
                         >
-                            Profile
+                           Career Upskilling
                         </li>
                         <li
                             className={`menu-item ${activeMenuItem === 'settings' ? 'active' : ''}`}
