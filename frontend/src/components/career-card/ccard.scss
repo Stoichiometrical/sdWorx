@@ -1,15 +1,19 @@
+// Define your brand colors as variables
+$brand-color-primary: #870B58;
+$brand-color-secondary: #F8AD07;
+$brand-color-tertiary: #E4003A;
+
 .card {
-  width: 300px; // Adjust the width as needed
-  background-color: #f0f0f0;
+  width: 300px;
+  background-color: $brand-color-primary; // Use your primary brand color
   border: 1px solid #ddd;
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
 
   .card-image {
     width: 100%;
-    height: 200px; // Adjust the height as needed
+    height: 200px;
     object-fit: cover;
   }
 
@@ -20,7 +24,21 @@
     h2 {
       font-size: 1.5rem;
       margin: 0;
-      color: #333;
+      color: $brand-color-secondary; // Use your secondary brand color for the text
     }
+  }
+}
+
+// Additional styles using your tertiary brand color
+.button {
+  background-color: $brand-color-tertiary;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($brand-color-tertiary, 10%); // Darken the color on hover
   }
 }

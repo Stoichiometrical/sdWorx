@@ -10,12 +10,14 @@ import {
 } from "react-router-dom";
 import EmployeeView from "./pages/EmployeeView";
 import ManagerView from "./pages/ManagerView";
+import CareerGrowth from "./pages/career-growth/CareerGrowth";
+import TechDashboard from "./components/techdash/TechDashboard";
 
 
 const router = createBrowserRouter([
     {
-        path:"/dashboard",
-        element :""
+        path:"/careergrowth",
+        element :<CareerGrowth/>
 
     },
     {
@@ -29,6 +31,10 @@ const router = createBrowserRouter([
     {
         path:"mdashboard",
         element:<ManagerView/>
+    },
+    {
+        path:"/tech",
+        element:<TechDashboard/>
     }
 
 

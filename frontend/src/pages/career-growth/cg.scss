@@ -1,0 +1,38 @@
+.career-growth-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.career-growth-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #870B58; /* Your brand's primary color */
+  margin-bottom: 20px;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap : 4%;
+
+  .card {
+    flex: 1;
+  }
+}
+
+.performance-button {
+  background-color: #E4003A; /* Your brand's tertiary color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+
+  &:hover {
+    background-color: darken(#E4003A, 10%); /* Darken the tertiary color on hover */
+  }
+}
