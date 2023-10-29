@@ -8,34 +8,33 @@ import {
     createBrowserRouter,
     RouterProvider,
 } from "react-router-dom";
-import EmployeeView from "./pages/EmployeeView";
-import ManagerView from "./pages/ManagerView";
+import EmployeeView from "./pages/Employee View/EmployeeView";
 import CareerGrowth from "./pages/career-growth/CareerGrowth";
 import TechDashboard from "./components/techdash/TechDashboard";
 import MarketingDashboard from "./components/marketingdash/MarketingDashboard";
-import EmpView from "./pages/Manager View/EmpView";
+import ManagerView from "./pages/Manager View/ManagerView";
+import Dashboard from "./pages/dash/Dashboard";
 
 
 const router = createBrowserRouter([
     {
+        path : "",
+        element:<Dashboard/>
+    },
+    {
+        path:"/edash",
+        element:<ManagerView/>
+    },
+    {
+        path:"/dashboard",
+        element:<Dashboard/>
+    },
+    {
         path:"/careergrowth",
         element :<CareerGrowth/>
-
     },
     {
-        path : "",
-        element:<EmpView/>
-    },
-    {
-        path:"/tasks",
-        element:""
-    },
-    {
-        path:"edash",
-        element:<EmployeeView/>
-    },
-    {
-        path:"mdashboard",
+        path:"/mdashboard",
         element:<ManagerView/>
     },
     {
@@ -48,7 +47,11 @@ const router = createBrowserRouter([
     },
     {
         path:"dash",
-        element : <EmpView/>
+        element : <ManagerView/>
+    },
+    {
+        path:"/tasks",
+        element: <EmployeeView/>
     }
 
 

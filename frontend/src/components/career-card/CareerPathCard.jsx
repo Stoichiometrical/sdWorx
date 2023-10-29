@@ -12,9 +12,8 @@ const Card = ({ image, department,link }) => {
                 className="card-image"
             />
             <div className="card-content">
-                <h2>{department}</h2>
+                <h2><Link to={link} style={{fontStyle:"none",color:"#F8AD07"}}>{department}</Link></h2>
             </div>
-            <Link to={link}/>
         </div>
     );
 };

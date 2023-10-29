@@ -1,0 +1,17 @@
+.formss-row{
+  color: white;
+
+  h1{
+
+  }
+
+  .cards-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .cc{
+      width: 250px;
+    }
+  }
+}

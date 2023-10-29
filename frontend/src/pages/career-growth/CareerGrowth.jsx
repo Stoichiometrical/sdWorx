@@ -25,6 +25,7 @@ const CareerGrowth = () => {
                 <Card
                     image="https://images.pexels.com/photos/5699475/pexels-photo-5699475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     department="HR Department"
+                    link4="/mdash"
                 />
             </div>
 

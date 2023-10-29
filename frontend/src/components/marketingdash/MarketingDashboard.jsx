@@ -7,16 +7,18 @@ const MarketingDashboard = () => {
         {
             image: 'https://images.pexels.com/photos/2182981/pexels-photo-2182981.jpeg?auto=compress&cs=tinysrgb&w=600',
             department: 'Digital Marketing Fundamentals',
+            link : 'https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce'
         },
         {
             image: 'https://images.pexels.com/photos/3153199/pexels-photo-3153199.jpeg?auto=compress&cs=tinysrgb&w=600',
             department: 'Social Media Marketing',
+            link : 'https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce'
         },
         {
             image: 'https://images.pexels.com/photos/6930556/pexels-photo-6930556.jpeg?auto=compress&cs=tinysrgb&w=600',
             department: 'Content Marketing Strategies',
+            link : 'https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce'
         },
-        // Add more course objects as needed
     ];
 
     return (
@@ -47,7 +49,7 @@ const MarketingDashboard = () => {
             {/* Marketing Courses as Cards */}
             <div className="course-cards">
                 {marketingCourses.map((course, index) => (
-                    <Card key={index} image={course.image} department={course.department} />
+                    <Card key={index} image={course.image} department={course.department} link={course.link} />
                 ))}
             </div>
 

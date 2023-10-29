@@ -1,0 +1,39 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  background-color: #F8AD07; /* Task background color */
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  .task-info {
+    flex-grow: 1;
+  }
+
+  .task-actions {
+    i {
+      margin-left: 10px;
+      cursor: pointer;
+
+      &.fa-eye {
+        color: #870B58; /* Color the "View" icon as per your brand color */
+      }
+
+      &.fa-users {
+        color: #E4003A; /* Color the "Collaborate" icon as per your brand color */
+      }
+
+      &.fa-tasks {
+        color: #F8AD07; /* Color the "Status" icon as per your brand color */
+      }
+
+      &.fa-trash {
+        color: #870B58; /* Color the "Delete" icon as per your brand color */
+      }
+    }
+  }
+}

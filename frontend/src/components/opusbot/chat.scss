@@ -1,0 +1,65 @@
+/* chatbot-container is the main container for the chatbot */
+.chatbot-container {
+  //width: 50%; /* Takes 50% of the screen width */
+  height: 400px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: #870B58; /* Your brand's primary color */
+}
+
+/* chat-messages is the container for chat messages */
+.chat-messages {
+  flex-grow: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+/* chat-message is a single message container */
+.chat-message {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 8px;
+  max-width: 70%;
+}
+
+/* user is for user messages */
+.user {
+  background-color: #007BFF; /* Your brand's secondary color */
+  color: white;
+  align-self: flex-end;
+}
+
+/* bot is for bot messages */
+.bot {
+  background-color: #ECEFF1; /* Light gray or your brand's tertiary color */
+  color: #333;
+  align-self: flex-start;
+}
+
+/* user-input is the input box and send button */
+.user-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+
+  input {
+    flex-grow: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+
+  button {
+    background-color: #870B58; /* Your brand's primary color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+}
